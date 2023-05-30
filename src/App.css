@@ -1,0 +1,49 @@
+.App{
+    text-align: center;
+}
+
+.App-header{
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+.App-main{
+    padding: 20px;
+}
+
+.section-main{
+    margin-bottom: 40px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label{
+    font-weight: bold;
+}
+
+textarea{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button{
+    padding: 8px 16px;
+    font-size: 16px;
+}
